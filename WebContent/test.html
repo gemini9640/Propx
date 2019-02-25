@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+	<style>
+
+	*{margin:0px; padding: 0px:}
+	#main{width:200px; margin:20px auto;}
+
+	</style>
+	<body>
+
+    <div id="fh5co-search-map">
+      <div class="search-property">
+        <div class="s-holder">
+          <h2>Submit Your Requirement</h2>
+	          <form method='post' action='abc/submit.do'>
+	          <div class="row">
+	            <div class="col-xxs-12 col-xs-12">
+	              <div class="input-field">
+	                <label for="from">Buy/Sell:*</label>
+	                <select name="buy_sell" id="buy-sell" class="cs-select cs-skin-border" required>
+	                  
+	                  <option value="1">Buy</option>
+	                  <option value="2">Sell</option>
+	                </select>
+	              </div>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <div class="input-field">
+	                <label for="from">Location:*</label>
+	                <input name="from_place" type="text" class="form-control" id="from-place" placeholder="Kuala Lumpur/Cheras or Any" required/>
+	              </div>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <div class="input-field">
+	                <label for="from">Fullname:*</label>
+	                <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Any" required/>
+	              </div>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <div class="input-field">
+	                <label for="from">Contact:*</label>
+	                <input name="contact" type="text" class="form-control" id="contact" placeholder="012-3456789" required/>
+	              </div>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <div class="input-field">
+	                <label for="from">email:</label>
+	                <input name="email" type="text" class="form-control" id="mail" placeholder="*@gmail.com" />
+	              </div>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <section>
+	                <label for="class">Title Type:</label>
+	                <select name="title_type" id="title_type" class="cs-select cs-skin-border">
+	                  
+	                  <option value="Freehold">Freehold</option>
+	                  <option value="Leashold">Leashold</option>
+	                </select>
+	              </section>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <section>
+	                <label for="class">Size:*</label>
+	                <select name="size" id="size" class="cs-select cs-skin-border input-half">
+	                  
+	                  <option value="1"><1k</option>
+	                  <option value="2">1k - 2k</option>
+	                  <option value="3">2k - 3k</option>
+	                  <option value="4">3k - 4k</option>
+	                  <option value="5">>4k </option>
+	                </select>
+	              </section>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <section>
+	                <label for="class">Property Type:</label>
+	                <div class="wide">
+	                  <select name="propery_type_1" id="pt_1" class="cs-select cs-select-half cs-skin-border input-half">
+	                    
+	                    <option value="Commercial">Commercial</option>
+	                    <option value="Residential">Residential</option>
+	                  </select>
+	                  <select name="propery_type_2" id="propery_type_2" class="cs-select cs-select-half cs-skin-border input-half">
+	                    
+	                    <option value="1">Condoninum</option>
+	                    <option value="2">Sodo</option>
+	                    <option value="3">Studio</option>
+	                    <option value="4">Service Apartment</option>
+	                    <option value="5">Aparment</option>
+	                    <option value="6">1-S Terrace</option>
+	                    <option value="7">2-S Terrace</option>
+	                    <option value="8">>2-S Terrace</option>
+	                    <option value="9">1-S Semi-D</option>
+	                    <option value="10">2-S Semi-D</option>
+	                    <option value="11">>2-S Semi-D</option>
+	                    <option value="12">1-S Bungalow</option>
+	                    <option value="13">2-S Bungalow</option>
+	                    <option value="14">>2-S Bungalow</option>
+	                    <option value="15">Town house</option>
+	                    <option value="16">Shoplot</option>
+	                  </select>
+	                </div>
+	              </section>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <section>
+	                <label for="class">Price:</label>
+	                <div class="wide">
+	                  <select name="price_1" id="price_1" class="cs-select cs-select-half cs-skin-border input-half">
+	                    
+	                    <option value="1">0</option>
+	                    <option value="2">100k</option>
+	                    <option value="3">200k</option>
+	                    <option value="4">300k</option>
+	                    <option value="5">400k</option>
+	                    <option value="6">500k</option>
+	                    <option value="7">600k</option>
+	                    <option value="8">700k</option>
+	                    <option value="9">800k</option>
+	                    <option value="10">900k</option>
+	                    <option value="10">1 mil</option>
+	                  </select>
+	                  <select name="price_2" id="price_2" class="cs-select cs-select-half cs-skin-border input-half">
+	                    
+	                    <option value="1">100k</option>
+	                    <option value="2">200k</option>
+	                    <option value="3">300k</option>
+	                    <option value="4">400k</option>
+	                    <option value="5">500k</option>
+	                    <option value="6">600k</option>
+	                    <option value="7">700k</option>
+	                    <option value="8">800k</option>
+	                    <option value="9">900k</option>
+	                    <option value="10">1 mil</option>
+	                    <option value="10">Above</option>
+	                  </select>
+	                </div>
+	              </section>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <section>
+	                <label for="class">Bedrooms:</label>
+	                <div class="wide">
+	                  <select name="bdro_1" id="bdro_1" class="cs-select cs-select-half cs-skin-border input-half">
+	                    <option value="1">0</option>
+	                    <option value="2">1</option>
+	                    <option value="3">2</option>
+	                    <option value="4">3</option>
+	                    <option value="5">4</option>
+	                    <option value="6">5</option>
+	                    <option value="7">6</option>
+	                    <option value="8"></option>
+	                  </select>
+	                  <select name="bdro_2" id="bdro_2" class="cs-select cs-select-half cs-skin-border input-half">
+	                    
+	                    <option value="1">0</option>
+	                    <option value="2">1</option>
+	                    <option value="3">2</option>
+	                    <option value="4">3</option>
+	                    <option value="5">4</option>
+	                    <option value="6">5</option>
+	                    <option value="7">6</option>
+	                    <option value="8">Above</option>
+	                  </select>
+	                </div>
+	              </section>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <section>
+	                <label for="class">Bathrooms:</label>
+	                <div class="wide">
+	                  <select name="bhro_1" id="bhro_1" class="cs-select cs-select-half cs-skin-border input-half">
+	                    
+	                    <option value="1">0</option>
+	                    <option value="2">1</option>
+	                    <option value="3">2</option>
+	                    <option value="4">3</option>
+	                    <option value="5">4</option>
+	                    <option value="6">5</option>
+	                    <option value="7">6</option>
+	                  </select>
+	                  <select name="bhro_2" id="bhro_2" class="cs-select cs-select-half cs-skin-border input-half">
+	                    
+	                    <option value="1">0</option>
+	                    <option value="2">1</option>
+	                    <option value="3">2</option>
+	                    <option value="4">3</option>
+	                    <option value="5">4</option>
+	                    <option value="6">5</option>
+	                    <option value="7">6</option>
+	                    <option value="8">Above</option>
+	                  </select>
+	                </div>
+	              </section>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12">
+	              <section>
+	                <label for="class">Parking lot:</label>
+	                <div class="wide">
+	                  <select name="pkl_1" id="pkl_1" class="cs-select cs-select-half cs-skin-border input-half">
+	                    
+	                    <option value="1">0</option>
+	                    <option value="2">1</option>
+	                    <option value="3">2</option>
+	                    <option value="4">3</option>
+	                    <option value="5">4</option>
+	                    <option value="6">5</option>
+	                    <option value="7">6</option>
+	                  </select>
+	                  <select name="pkl_2" id="pkl_2" class="cs-select cs-select-half cs-skin-border input-half">
+	                    
+	                    <option value="1">0</option>
+	                    <option value="2">1</option>
+	                    <option value="3">2</option>
+	                    <option value="4">3</option>
+	                    <option value="5">4</option>
+	                    <option value="6">5</option>
+	                    <option value="7">6</option>
+	                    <option value="8">Above</option>
+	                  </select>
+	                </div>
+	              </section>
+	            </div>
+	            <div class="col-xxs-12 col-xs-12 text-center">
+	              <input type='submit'  class="btn btn-primary btn-lg" value="submit"/>
+	            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="map" style="background-image: url(images/cover_bg_1.jpg);">
+      </div>
+    </div>
+
+</body>
+
+</html>
