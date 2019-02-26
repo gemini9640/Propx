@@ -21,8 +21,6 @@ public class RequirementAction extends ActionSupport{
 			bedrooms = bdro_1 +"-"+ bdro_2;
 			bathrooms = bhro_1 +"-"+ bhro_2;
 			parking_lot = pkl_1 +"-"+pkl_2;
-			System.out.println("=============================");
-			System.out.println(buy_sell+ " " +from_place+ " " + fullname+ " " + contact+ " " + email+ " " + title_type+ " " + size+ " " + propery_type+ " " + price+ " " + bedrooms+ " " + bathrooms+ " " + parking_lot);
 			Submit_requirement submit_requirement = new Submit_requirement(buy_sell, from_place, fullname, contact, email, title_type, size, propery_type, price, bedrooms, bathrooms, parking_lot);
 			String resultMsg = requirementService.addData(submit_requirement);
 			setErrormsg(resultMsg);

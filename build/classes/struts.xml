@@ -6,13 +6,16 @@
 	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
 	<constant name="struts.devMode" value="false" />
 
-	<package name="" namespace="/abc" extends="struts-default">
+	<package name="" namespace="/requirement" extends="struts-default">
 		<action name="submit" class="requirementAction" method="submit">
 			<result name="success">/success.html</result>
 			<result name="input">/fail.html</result>
 		</action>
 	</package>
-
-
-
+	<package name="" namespace="/appointment" extends="struts-default">
+		<action name="submit" class="appointmentAction" method="submit">
+			<result name="success">/success.html</result>
+			<result name="input">/fail.html</result>
+		</action>
+	</package>
 </struts>
